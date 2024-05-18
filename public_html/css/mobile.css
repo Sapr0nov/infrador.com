@@ -1,0 +1,292 @@
+body {
+	font:12px/18px Arial, Helvetica, sans-serif;
+	color:#3a3a3a;
+	position:relative;
+	background: #fff;
+	background: url(../images/header_bg.png) center 0 repeat-y;
+}
+
+html, body {
+	height:100%;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Lato', sans-serif;
+	color: #181818;
+	font-weight: normal;
+}
+
+h2 {
+	font-size: 32px;
+	line-height: 36px;	
+	min-height: 61px;
+	padding-bottom: 10px;
+}
+
+h3 {
+	font-size: 24px;
+	line-height: 26px;	
+}
+
+h4 {
+	font-size: 13px;
+	line-height: 16px;
+	color: #181818;
+	text-transform: uppercase;	
+	font-weight: bold;
+	margin-bottom: 17px;
+}
+
+p {
+	margin-bottom: 18px;	
+}
+
+ul.list_1 li {
+	padding-left: 14px;
+	background: url(../images/marker1.png) no-repeat left 8px;
+	padding-top: 3px;
+	padding-bottom: 5px;
+}
+
+ul.list_1>li>a {
+	font-size: 11px;
+	line-height: 17px;	
+	text-transform: uppercase;
+	color: #a0a0a0;
+}
+
+ul.list_1 li a:hover {
+	text-decoration: underline;	
+}
+
+ul.list_2 li {
+	margin-bottom: 6px;	
+}
+
+ul.list_2 li a {
+	font-size: 22px;
+	padding: 9px 10px 13px 15px;
+	display: block;
+	background: #cccccc;
+	line-height: 25px;
+	color: #181818;
+	font-family: 'Lato', sans-serif;	
+}
+
+ul.list_2 li a:hover {
+	background: #146daa;
+	color: #fff;	
+	text-decoration: none;
+}
+
+ul.list_3 {
+	padding-top: 5px;	
+	margin-bottom: 8px;
+}
+
+ul.list_3 li {
+	background: url(../images/marker2.gif) no-repeat left 5px;
+	padding-left: 2px;
+	color: #fff;	
+	margin-bottom: 8px;
+}
+
+ul.list_3 li a {
+	color: #e30002;	
+}
+
+ul.list_3 li a:hover {
+	text-decoration: underline;
+}
+
+address {
+	font-style: normal;	
+}
+
+
+ul  {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+
+
+
+/*links*/
+
+a {
+	text-decoration: none;	
+	color: #146daa;
+	font: 12px/18px Arial, Helvetica, sans-serif;
+ 	outline: none;	
+}
+
+a:hover {
+	text-decoration: underline;	
+}
+/*preclass*/
+
+.wrapper {
+	overflow: hidden;	
+}
+.wrapper2 {
+	overflow: hidden;
+	padding-left:15px;
+	background-color:white;
+}
+
+li.current a{
+color:#E21526;
+}
+.clear {
+	float: none !important;
+	clear: both;	
+}
+
+.text_1 {
+	color: #146daa;
+	font-size: 11px;	
+}
+
+
+
+/*Header*/
+
+header {
+
+}
+
+.header_top {
+	padding-top: 6px;
+	padding-bottom: 5px;
+	padding-left: 4px;
+	overflow: hidden;
+}
+
+header h1 {
+	display: inline-block;
+	float: left;
+}
+
+header h1 span {
+	font: 12px/30px	'Lato', sans-serif;
+	color: #303030;
+	font-style: italic;
+	display: inline-block;
+	padding-top: 17px;
+	margin-left: -2px;
+}
+
+
+.phone1 {
+	text-transform: uppercase;
+	font: 19px/18px Arial, Helvetica, sans-serif;	
+	color: #616161;	
+}
+
+.phone1 span {
+	color: #3a3939;	
+}
+
+header .contacts .clear {
+	 height: 6px;	
+}
+
+header .contacts a {
+	font: 13px/18px Arial, Helvetica, sans-serif;
+	color: #4c4c4c;
+	display: inline-block;
+	margin-left: 9px;	
+	float: right;
+	margin-right: 3px;
+	text-transform: none;
+}
+
+header .contacts a:hover {
+	text-decoration: underline;	
+}
+
+header .contacts a:first-child+a {
+	margin-right: 11px;
+}
+
+/*Content*/
+.contacts{
+float:right;
+}
+.sf-menu li {
+display:inline;
+}
+
+.content {
+	background: #f9f9f9;	
+	padding-top: 22px;
+	margin-top: -1px;
+	padding-bottom: 25px;
+}
+
+.img_box {
+	padding: 10px 10px 11px 10px;
+	box-shadow: 3px 3px 2px #ddd;
+	background: #cccccc;
+	margin-bottom: 20px;
+}
+
+.img_box img {
+	margin-bottom: 11px;	
+}
+
+.img_box a {
+	display: inline-block;
+	color: #146daa;
+	font: 11px/18px Arial, Helvetica, sans-serif;		
+}
+
+.img_inner {
+	border: 4px solid #fff;
+	box-shadow: 2px 3px 2px #dddddd;	
+	margin-bottom: 17px;
+	float:left;
+	margin-right: 10px;
+}
+a img.img_inner {
+color: white;
+}
+
+
+h2 span {
+	font: 12px/18px Arial, Helvetica, sans-serif;	
+	text-transform: uppercase;
+	color: #146daa;
+	padding-top: 2px;
+	display: block;
+}
+
+
+/*Footer*/
+footer {
+	padding: 23px 0 35px;
+	color: #c9c9c9;
+	font-size: 11px;
+	line-height: 17px;
+	background: url(../images/page1_botofbot_repeat.png) repeat center top;
+}
+
+footer img {
+	float: left;	
+}
+
+footer span {
+	float: right;
+	display: block;
+	padding-top: 7px;	
+	padding-right: 45px;
+}
+
+footer span a {
+	color: #c9c9c9;
+	font-size: 11px;
+	line-height: 17px;	
+}
+
+
